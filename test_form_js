@@ -1,0 +1,12 @@
+function myFunction() {
+  // Get the value of the input field with id="phone"
+  let x = document.getElementById("phone").value;
+  // If x is not a Number, get "Not letters please" mesage 
+  let text;
+  if (isNaN(x)) {
+    text = "Input not valid";
+  } else {
+    text = "Input OK";
+  }
+  document.getElementById("message").innerHTML = text;
+}
