@@ -4,8 +4,8 @@
  * Author: Osipov
  */
 
-public class Main {
-	public static void main(String[] args) {
+public class Main{
+	public static void main(String[] args){
 void printTriangle(int hight=7){
  int x, y;
  for(x = 0; x < hight; x++){
